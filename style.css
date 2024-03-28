@@ -1,0 +1,74 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to bottom, #25f7fb, #f8fcfd);
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.imgResponsiva
+{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Utiliza la fuente deseada para el botón */
+button.btn {
+    font-family:Calibri, 'Trebuchet MS';
+    font-style:italic;
+    
+    padding: 35px;
+    background-color: rgb(87, 227, 249);
+    
+}
+
+button.btn a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(230, 0, 255);
+    font-weight: bold;
+    font-size:22px;
+}
+button.btn a:visited {
+    text-decoration: none;
+}
+h1
+{
+    font-family:Tangerine;
+    font-size: 20px;
+    font-style:italic;
+    border: solid rgb(255, 255, 255) 2px;
+    padding: 30px;
+    background-image: linear-gradient(135deg, #fdd4fb, #f8fcfd); 
+}
+.pie{
+    font-size: 20px;
+    border: black solid 2px ;
+    background-color: aquamarine;
+    font-family:Haettenschweiler;
+}
+button:hover {
+    background-color: #cac2c2;
+    border-radius: 30%;
+    
+}
+img:hover
+{
+    transform: scale(1.1); /* Escala la imagen al 120% del tamaño original */
+    transition: transform 0.3s ease; /* Añade una transición suave */
+}
+iframe:hover
+{
+    transform: scale(1.1); /* Escala la imagen al 120% del tamaño original */
+    transition: transform 0.3s ease; /* Añade una transición suave */
+}
+
+
+
+
+
